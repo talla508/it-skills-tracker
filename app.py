@@ -414,7 +414,7 @@ def chart_hist(df: pd.DataFrame, col: str, title: str, x_label: str):
 # PAGES
 # =========================================================
 def page_collecte():
-    hero("💻 IT Skills Tracker", "Collecte & analyse descriptive des compétences en informatique", "VERSION BLEU & BLANC • 2024")
+    hero("💻 IT Skills Tracker", "Collecte & analyse descriptive des compétences en informatique", "FRENCH VERSION ")
 
     stats = db.get_statistics()
     if stats:
